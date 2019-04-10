@@ -1,0 +1,162 @@
+body{
+	background-color: #f9f9f9;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: none;
+}
+.btn-primary{
+	background-color: #dc3545!important;
+	border-color: #fff!important;
+	border-radius: 0;
+}
+.btn-secondary{
+	background-color: #5f5959!important;
+	border-color: #fff!important;
+	border-radius: 0;
+}
+#loginForm{
+	width: 25%;
+}
+
+/*ANIMATE ICON*/
+.fa-cog{
+	color: #fff;
+	animation: mymove 1.3s linear infinite;
+}
+@keyframes mymove {
+    from{ transform:rotate(0deg) }
+    to{ transform: rotate(360deg) }
+}
+label{
+	font-weight: 900;
+}
+.main-bg-color{
+	color: #fff;
+	background: #50bb92;
+}
+.bg-white{
+	background-color: #fff;
+}
+.navbar a{
+	color: #fff;
+}
+.navbar .active{
+	background: #449c7b;
+}
+.nav-item{
+	padding: 0 15px;
+}
+.navbar-toggler{
+	outline-color: rgba(0, 0, 0, 0.5)!important;
+}
+/*HEADER*/
+#header{
+	background-color: #565555;
+}
+#header small{
+	color: #afabab;
+}
+#header h1{
+	color: #fff;
+	
+}
+button#dropdownMenuButton{
+	margin-top: 10px;
+}
+button#dropdownMenuButton:focus{
+	box-shadow: none!important;
+}
+.dropdown-item:active{
+	background-color: #449c7b!important;
+}
+.dropdown-item:hover{
+	background-color: #50bb92!important;
+}
+/*MAIN section*/
+#main .active{
+	background-color: #449c7b;
+	border-color: #449c7b;;
+}
+#main .owerview{
+	background-color: #f9f9f9;
+	border: 1px solid #969696;
+	min-height: 160px;
+}
+#main .owerview h5{
+	text-align: center;
+}
+#main .owerview i:before{
+	font-size: 25px;
+}
+#main .owerview .badge{
+	font-size: 22px;
+	padding: 0;
+	font-weight: 1;
+}
+#main .owerview-content{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#main .owerview-content h5{
+	color: #bec1c3;
+}
+/*BREADCRUMB*/
+.breadcrumb a{
+	color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*FOOTER*/
+footer{
+	background-color: #565555;
+	padding: 25px;
+}
+/*PAGES*/
+.pages .btn{
+	width: 85px;
+	padding: 0;
+}
+#search-page, #search-post, #search-user{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 0;
+    box-shadow: none!important;
+}
+#search-page:focus{
+	border-color: #449c7b;
+}
+.margin, .owerview{
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+	.pages .btn-info{
+		margin-bottom: 5px;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+	
+}
+
+
+@media (max-width: 992px) {
+	button.navbar-toggler, a.navbar-brand{
+		margin: 5px 15px;
+	}	
+	#loginForm{
+		width: 100%!important;
+	}
+
+}
+
+
+@media (max-width: 1200px) { 
+	#loginForm{
+		width: 50%;
+	}
+}
